@@ -37,7 +37,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-email-service** | Email Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-email-service.git) |
 | **spring-boot-chatgpt** | ChatGPT Integration Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-chatgpt.git) |
 | **spring-boot-common-utility-service** | Common Utility Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-common-utility-service.git) |
-| **spring-boot-jwt-service** | JWT Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jwt-service.git) |
+| **spring-boot-jwt-service** | JWT Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jwt-service.git) |
 | **spring-boot-scheduler-service** | Scheduler Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-scheduler-service.git) |
 | **spring-boot-batch-processing-service** | Batch Processing Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-processing-service.git) |
 | **spring-boot-batch-partitioning-service** | Batch Partitioning Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-partitioning-service.git) |
