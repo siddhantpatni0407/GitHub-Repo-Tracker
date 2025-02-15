@@ -39,8 +39,8 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-common-utility-service** | Common Utility Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-common-utility-service.git) |
 | **spring-boot-jwt-service** | JWT Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jwt-service.git) |
 | **spring-boot-scheduler-service** | Scheduler Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-scheduler-service.git) |
-| **spring-boot-batch-processing-service** | Batch Processing Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-processing-service.git) |
-| **spring-boot-batch-partitioning-service** | Batch Partitioning Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-partitioning-service.git) |
+| **spring-boot-batch-processing-service** | Batch Processing Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-processing-service.git) |
+| **spring-boot-batch-partitioning-service** | Batch Partitioning Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-partitioning-service.git) |
 | **spring-boot-batch-fault-tolerance-service** | Fault Tolerance Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-fault-tolerance-service.git) |
 | **spring-boot-batch-file-upload-service** | Batch File Upload Service  | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-file-upload-service.git) |
 | **spring-boot-employee-mgmt-service** | Employee Management Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repoe](https://github.com/siddhantpatni0407/spring-boot-employee-mgmt-service.git) |
@@ -54,7 +54,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-hotel-booking-management-service** | Hotel Booking Management Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-hotel-booking-management-service.git) |
 <!--| **** |  | ⏳ Planned | 2025-02-15 | 🔒 Private | []() |-->
 
-**📝 Last Updated :** `2025-02-15`
+**📝 Last Updated :** `2025-02-16`
 
 ## 🏷 Project Status Legends
 | Status | Meaning |
