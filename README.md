@@ -14,7 +14,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **CPP_Programs** | C++ Programs | ⏳ Planned | 2021-04-27 | [CPP_Programs](https://github.com/siddhantpatni0407/CPP_Programs.git) |
 | **DataStructure_C** | Data Structure using C | ⏳ Planned | 2021-04-27 | [DataStructure_C](https://github.com/siddhantpatni0407/DataStructure_C.git) |
 | **DataStructure_Cpp** | Data Structure using C++ | ⏳ Planned | 2021-04-27 | [DataStructure_Cpp](https://github.com/siddhantpatni0407/DataStructure_Cpp.git) |
-| **DataStructure_Java** | Data Structure using Java | ⏳ Planned | 2021-04-27 | [DataStructure_Java](hhttps://github.com/siddhantpatni0407/DataStructure_Java.git) |
+| **DataStructure_Java** | Data Structure using Java | ⏳ Planned | 2021-04-27 | [DataStructure_Java](https://github.com/siddhantpatni0407/DataStructure_Java.git) |
 | **Java-ByMadhuraAnturkar-Core_Java** | Core Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | [Java-ByMadhuraAnturkar-Core_Java](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Core_Java.git) |
 | **Java-ByMadhuraAnturkar-Advance_Java** | Advance Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | [Java-ByMadhuraAnturkar-Advance_Java](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Advance_Java.git) |
 <!-- | **** |  |  |  | []() | -->
