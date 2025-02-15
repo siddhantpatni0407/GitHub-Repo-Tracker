@@ -40,5 +40,5 @@ This repository helps me keep track of all my GitHub projects, their description
 If you are a collaborator or managing multiple repositories, follow these steps to update the tracker:
 1. **Fork this repository**.
 2. **Add or update repository details README.md** file with the latest projects and statuses.
-3. ** Create a pull request** 
+3. **Create a pull request** 
 4. **Commit your changes** with a meaningful message
