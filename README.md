@@ -7,18 +7,18 @@ This repository helps me keep track of all my GitHub projects, their description
 ## 📂 List of Common Repositories
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |--------------------------|---------------------------|----------------|-----------------|-----------|-------------------|
-| **Notes** | Technical Notes | ✅ Active | 2025-01-18 | 🔒 Private | [Notes](https://github.com/siddhantpatni0407/Notes.git) |
-| **Java-Core_Java** | Core Java Programs | ⚠️ In Progress | 2025-01-26 | 🔓 Public | [Java-Core_Java](https://github.com/siddhantpatni0407/Java-Core_Java.git) |
-| **Java-Advance_Java** | Advance Java Programs | ⚠️ In Progress | 2021-04-27 | 🔓 Public | [Java-Core_Java](https://github.com/siddhantpatni0407/Java-Advance_Java.git) |
-| **Python** | Core Python Programs | ⚠️ In Progress | 2024-09-14 | 🔒 Private | [Python](https://github.com/siddhantpatni0407/Python.git) |
-| **C_Programs** | C Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [C_Programs](https://github.com/siddhantpatni0407/C_Programs.git) |
-| **CPP_Programs** | C++ Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [CPP_Programs](https://github.com/siddhantpatni0407/CPP_Programs.git) |
-| **DataStructure_C** | Data Structure using C | ⏳ Planned | 2021-04-27 | 🔒 Private | [DataStructure_C](https://github.com/siddhantpatni0407/DataStructure_C.git) |
-| **DataStructure_Cpp** | Data Structure using C++ | ⏳ Planned | 2021-04-27 | 🔒 Private | [DataStructure_Cpp](https://github.com/siddhantpatni0407/DataStructure_Cpp.git) |
-| **DataStructure_Java** | Data Structure using Java | ⏳ Planned | 2021-04-27 | 🔒 Private | [DataStructure_Java](https://github.com/siddhantpatni0407/DataStructure_Java.git) |
-| **Java-ByMadhuraAnturkar-Core_Java** | Core Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [Java-ByMadhuraAnturkar-Core_Java](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Core_Java.git) |
-| **Java-ByMadhuraAnturkar-Advance_Java** | Advance Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [Java-ByMadhuraAnturkar-Advance_Java](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Advance_Java.git) |
-| **spring-boot-microservices** | All Spring Boot Microservices | 🛑 Archived | 2025-02-15 | 🔓 Public | [spring-boot-microservices](https://github.com/siddhantpatni0407/spring-boot-microservices.git) |
+| **Notes** | Technical Notes | ✅ Active | 2025-01-18 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Notes.git) |
+| **Java-Core_Java** | Core Java Programs | ⚠️ In Progress | 2025-01-26 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Core_Java.git) |
+| **Java-Advance_Java** | Advance Java Programs | ⚠️ In Progress | 2021-04-27 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Advance_Java.git) |
+| **Python** | Core Python Programs | ⚠️ In Progress | 2024-09-14 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Python.git) |
+| **C_Programs** | C Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/C_Programs.git) |
+| **CPP_Programs** | C++ Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/CPP_Programs.git) |
+| **DataStructure_C** | Data Structure using C | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_C.git) |
+| **DataStructure_Cpp** | Data Structure using C++ | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_Cpp.git) |
+| **DataStructure_Java** | Data Structure using Java | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_Java.git) |
+| **Java-ByMadhuraAnturkar-Core_Java** | Core Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Core_Java.git) |
+| **Java-ByMadhuraAnturkar-Advance_Java** | Advance Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repoa](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Advance_Java.git) |
+| **spring-boot-microservices** | All Spring Boot Microservices | 🛑 Archived | 2025-02-15 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-microservices.git) |
 <!-- | **** |  |  |  | []() | -->
 
 ## 📂 List of Repositories : Angular
@@ -34,24 +34,24 @@ This repository helps me keep track of all my GitHub projects, their description
 ## 📂 List of Repositories : Java - Spring Boot Microservices
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |-----------------------|-------------|--------|--------------|------|------------------------|
-| **spring-boot-email-service** | Email Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [spring-boot-email-service](https://github.com/siddhantpatni0407/spring-boot-email-service.git) |
-| **spring-boot-chatgpt** | ChatGPT Integration Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [spring-boot-chatgpt](https://github.com/siddhantpatni0407/spring-boot-chatgpt.git) |
-| **spring-boot-common-utility-service** | Common Utility Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [spring-boot-common-utility-service](https://github.com/siddhantpatni0407/spring-boot-common-utility-service.git) |
-| **spring-boot-jwt-service** | JWT Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-jwt-service](https://github.com/siddhantpatni0407/spring-boot-jwt-service.git) |
-| **spring-boot-scheduler-service** | Scheduler Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-scheduler-service](https://github.com/siddhantpatni0407/spring-boot-scheduler-service.git) |
-| **spring-boot-batch-processing-service** | Batch Processing Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-batch-processing-service](https://github.com/siddhantpatni0407/spring-boot-batch-processing-service.git) |
-| **spring-boot-batch-partitioning-service** | Batch Partitioning Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-batch-partitioning-service](https://github.com/siddhantpatni0407/spring-boot-batch-partitioning-service.git) |
-| **spring-boot-batch-fault-tolerance-service** | Fault Tolerance Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-batch-fault-tolerance-service](https://github.com/siddhantpatni0407/spring-boot-batch-fault-tolerance-service.git) |
-| **spring-boot-batch-file-upload-service** | Batch File Upload Service  | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-batch-file-upload-service](https://github.com/siddhantpatni0407/spring-boot-batch-file-upload-service.git) |
-| **spring-boot-employee-mgmt-service** | Employee Management Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-employee-mgmt-service](https://github.com/siddhantpatni0407/spring-boot-employee-mgmt-service.git) |
-| **spring-boot-file-storage-service** | File Storage Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-file-storage-service](https://github.com/siddhantpatni0407/spring-boot-file-storage-service.git) |
-| **spring-boot-jpa-pagination-service** | JPA Pagination Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-jpa-pagination-service](https://github.com/siddhantpatni0407/spring-boot-jpa-pagination-service.git) |
-| **spring-boot-kafka-service** | Kafka Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-kafka-service](https://github.com/siddhantpatni0407/spring-boot-kafka-service.git) |
-| **spring-boot-graphql-service** | GraphQL Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-graphql-service](https://github.com/siddhantpatni0407/spring-boot-graphql-service.git) |
-| **spring-boot-excel-data-processor-service** | Excel Data Processor Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-excel-data-processor-service](https://github.com/siddhantpatni0407/spring-boot-excel-data-processor-service.git) |
-| **spring-boot-jpa-multiple-database-service** | JPA Multiple Database Integration Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-jpa-multiple-database-service](https://github.com/siddhantpatni0407/spring-boot-jpa-multiple-database-service.git) |
-| **spring-boot-event-service** | Event Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-event-service](https://github.com/siddhantpatni0407/spring-boot-event-service.git) |
-| **spring-boot-hotel-booking-management-service** | Hotel Booking Management Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [spring-boot-hotel-booking-management-service](https://github.com/siddhantpatni0407/spring-boot-hotel-booking-management-service.git) |
+| **spring-boot-email-service** | Email Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-email-service.git) |
+| **spring-boot-chatgpt** | ChatGPT Integration Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-chatgpt.git) |
+| **spring-boot-common-utility-service** | Common Utility Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-common-utility-service.git) |
+| **spring-boot-jwt-service** | JWT Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jwt-service.git) |
+| **spring-boot-scheduler-service** | Scheduler Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-scheduler-service.git) |
+| **spring-boot-batch-processing-service** | Batch Processing Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-processing-service.git) |
+| **spring-boot-batch-partitioning-service** | Batch Partitioning Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-partitioning-service.git) |
+| **spring-boot-batch-fault-tolerance-service** | Fault Tolerance Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-fault-tolerance-service.git) |
+| **spring-boot-batch-file-upload-service** | Batch File Upload Service  | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-file-upload-service.git) |
+| **spring-boot-employee-mgmt-service** | Employee Management Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repoe](https://github.com/siddhantpatni0407/spring-boot-employee-mgmt-service.git) |
+| **spring-boot-file-storage-service** | File Storage Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-file-storage-service.git) |
+| **spring-boot-jpa-pagination-service** | JPA Pagination Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jpa-pagination-service.git) |
+| **spring-boot-kafka-service** | Kafka Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-kafka-service.git) |
+| **spring-boot-graphql-service** | GraphQL Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-graphql-service.git) |
+| **spring-boot-excel-data-processor-service** | Excel Data Processor Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-excel-data-processor-service.git) |
+| **spring-boot-jpa-multiple-database-service** | JPA Multiple Database Integration Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jpa-multiple-database-service.git) |
+| **spring-boot-event-service** | Event Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-event-service.git) |
+| **spring-boot-hotel-booking-management-service** | Hotel Booking Management Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-hotel-booking-management-service.git) |
 <!--| **** |  | ⏳ Planned | 2025-02-15 | 🔒 Private | []() |-->
 
 **📝 Last Updated :** `2025-02-15`
