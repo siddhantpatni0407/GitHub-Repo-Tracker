@@ -17,7 +17,14 @@ This repository helps me keep track of all my GitHub projects, their description
 | **DataStructure_Java** | Data Structure using Java | ⏳ Planned | 2021-04-27 | [DataStructure_Java](https://github.com/siddhantpatni0407/DataStructure_Java.git) |
 | **Java-ByMadhuraAnturkar-Core_Java** | Core Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | [Java-ByMadhuraAnturkar-Core_Java](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Core_Java.git) |
 | **Java-ByMadhuraAnturkar-Advance_Java** | Advance Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | [Java-ByMadhuraAnturkar-Advance_Java](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Advance_Java.git) |
+| **spring-boot-microservices** | All Spring Boot Microservices | 🛑 Archived | 2025-02-15 | [spring-boot-microservices](https://github.com/siddhantpatni0407/spring-boot-microservices.git) |
 <!-- | **** |  |  |  | []() | -->
+
+## 📂 List of Repositories : Spring Boot Microservices
+| Repository Name | Description | Status | Last Updated | Link |
+|---------------|-------------|--------|--------------|------|
+| **spring-boot-email-service** | Email Service | ⏳ Planned |  | [spring-boot-email-service](https://github.com/siddhantpatni0407/spring-boot-email-service.git) |
+
 
 **📝 Last Updated : ** `2025-02-15`
 
