@@ -1,6 +1,10 @@
 # 🚀 GitHub-Repo-Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
+```
+**📝 Last Updated :** `2025-02-16`
+```
+
 ## 📂 List of Common Repositories
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
@@ -50,8 +54,6 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-event-service** | Event Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-event-service.git) |
 | **spring-boot-hotel-booking-management-service** | Hotel Booking Management Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-hotel-booking-management-service.git) |
 <!--| **** |  | ⏳ Planned | 2025-02-15 | 🔒 Private | []() |-->
-
-**📝 Last Updated :** `2025-02-16`
 
 ## 🏷 Project Status Legends
 | Status | Meaning |
