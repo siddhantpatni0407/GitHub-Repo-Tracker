@@ -4,7 +4,7 @@ All Repositories Tracker
 # 🚀 GitHub Repositories Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
-## 📂 List of Repositories
+## 📂 List of Common Repositories
 | Repository Name | Description | Status | Last Updated | Link |
 |---------------|-------------|--------|--------------|------|
 | **Notes** | Technical Notes | ✅ Active | 2025-01-18 | [Notes](https://github.com/siddhantpatni0407/Notes.git) |
@@ -20,13 +20,23 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-microservices** | All Spring Boot Microservices | 🛑 Archived | 2025-02-15 | [spring-boot-microservices](https://github.com/siddhantpatni0407/spring-boot-microservices.git) |
 <!-- | **** |  |  |  | []() | -->
 
+## 📂 List of Repositories : Angular
+| Repository Name | Description | Status | Last Updated | Link |
+|---------------|-------------|--------|--------------|------|
+| **** |  | ⏳ Planned |  | []() |
+
+## 📂 List of Repositories : React
+| Repository Name | Description | Status | Last Updated | Link |
+|---------------|-------------|--------|--------------|------|
+| **** |  | ⏳ Planned |  | []() |
+
 ## 📂 List of Repositories : Spring Boot Microservices
 | Repository Name | Description | Status | Last Updated | Link |
 |---------------|-------------|--------|--------------|------|
 | **spring-boot-email-service** | Email Service | ⏳ Planned |  | [spring-boot-email-service](https://github.com/siddhantpatni0407/spring-boot-email-service.git) |
 
 
-**📝 Last Updated : ** `2025-02-15`
+**📝 Last Updated :** `2025-02-15`
 
 ## 🏷 Project Status Legends
 | Status | Meaning |
