@@ -31,7 +31,7 @@ This repository helps me keep track of all my GitHub projects, their description
 |---------------|-------------|--------|--------------|------|------|
 | **** |  | ⏳ Planned |  | 🔒 Private | []() |
 
-## 📂 List of Repositories : Spring Boot Microservices
+## 📂 List of Repositories : Java - Spring Boot Microservices
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
 | **spring-boot-email-service** | Email Service | ⏳ Planned |  | 🔒 Private | [spring-boot-email-service](https://github.com/siddhantpatni0407/spring-boot-email-service.git) |
