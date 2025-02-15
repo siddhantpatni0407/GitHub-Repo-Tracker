@@ -6,7 +6,7 @@ This repository helps me keep track of all my GitHub projects, their description
 
 ## 📂 List of Common Repositories
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
-|--------------------------|---------------------------|----------------|-----------------|-----------|-------------------|
+|---------------|-------------|--------|--------------|------|------|
 | **Notes** | Technical Notes | ✅ Active | 2025-01-18 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Notes.git) |
 | **Java-Core_Java** | Core Java Programs | ⚠️ In Progress | 2025-01-26 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Core_Java.git) |
 | **Java-Advance_Java** | Advance Java Programs | ⚠️ In Progress | 2021-04-27 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Advance_Java.git) |
@@ -23,17 +23,17 @@ This repository helps me keep track of all my GitHub projects, their description
 
 ## 📂 List of Repositories : Angular
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
-|--------------------------|---------------------------|----------------|-----------------|-----------|-------------------|
+|---------------|-------------|--------|--------------|------|------|
 | **** |  | ⏳ Planned |  | 🔒 Private | []() |
 
 ## 📂 List of Repositories : React
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
-|--------------------------|---------------------------|----------------|-----------------|-----------|-------------------|
+|---------------|-------------|--------|--------------|------|------|
 | **** |  | ⏳ Planned |  | 🔒 Private | []() |
 
 ## 📂 List of Repositories : Java - Spring Boot Microservices
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
-|-----------------------|-------------|--------|--------------|------|------------------------|
+|---------------|-------------|--------|--------------|------|------|
 | **spring-boot-email-service** | Email Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-email-service.git) |
 | **spring-boot-chatgpt** | ChatGPT Integration Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-chatgpt.git) |
 | **spring-boot-common-utility-service** | Common Utility Service | 🚀 Completed | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-common-utility-service.git) |
