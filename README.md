@@ -1,7 +1,4 @@
-# GitHub-Repo-Tracker
-All Repositories Tracker
-
-# 🚀 GitHub Repositories Tracker
+# 🚀 GitHub-Repo-Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
 ## 📂 List of Common Repositories
