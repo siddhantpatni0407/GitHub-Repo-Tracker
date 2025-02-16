@@ -49,7 +49,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-kafka-service** | Kafka Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-kafka-service.git) |
 | **spring-boot-graphql-service** | GraphQL Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-graphql-service.git) |
 | **spring-boot-excel-data-processor-service** | Excel Data Processor Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-excel-data-processor-service.git) |
-| **spring-boot-jpa-multiple-database-service** | JPA Multiple Database Integration Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jpa-multiple-database-service.git) |
+| **spring-boot-jpa-multiple-database-service** | JPA Multiple Database Integration Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jpa-multiple-database-service.git) |
 | **spring-boot-event-service** | Event Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-event-service.git) |
 | **spring-boot-hotel-booking-management-service** | Hotel Booking Management Service | ⏳ Planned | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-hotel-booking-management-service.git) |
 <!--| **** |  | ⏳ Planned | 2025-02-15 | 🔒 Private | []() |-->
