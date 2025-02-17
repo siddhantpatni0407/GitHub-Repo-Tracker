@@ -30,7 +30,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
 | **react-file-storage-ui** | File Storage UI App | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/react-file-storage-ui.git) |
-| **react-kafka-manager-ui** | Kafka Manager UI App | ⚠️ In Progress | 2025-02-17 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/react-kafka-manager-ui.git) |
+| **react-kafka-manager-ui** | Kafka Manager UI App | 🚀 Completed | 2025-02-17 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/react-kafka-manager-ui.git) |
 
 ## 📂 List of Repositories : Java - Spring Boot Microservices
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
