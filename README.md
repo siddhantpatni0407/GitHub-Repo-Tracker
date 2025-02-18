@@ -47,7 +47,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-employee-mgmt-service** | Employee Management Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repoe](https://github.com/siddhantpatni0407/spring-boot-employee-mgmt-service.git) |
 | **spring-boot-file-storage-service** | File Storage Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-file-storage-service.git) |
 | **spring-boot-jpa-pagination-service** | JPA Pagination Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jpa-pagination-service.git) |
-| **spring-boot-kafka-service** | Kafka Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-kafka-service.git) |
+| **spring-boot-kafka-service** | Kafka Service | 🚀 Completed | 2025-02-19 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-kafka-service.git) |
 | **spring-boot-graphql-service** | GraphQL Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-graphql-service.git) |
 | **spring-boot-excel-data-processor-service** | Excel Data Processor Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-excel-data-processor-service.git) |
 | **spring-boot-jpa-multiple-database-service** | JPA Multiple Database Integration Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jpa-multiple-database-service.git) |
