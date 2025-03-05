@@ -1,7 +1,7 @@
 # 🚀 GitHub-Repo-Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
-## **📝 Last Updated :** **`2025-03-04`**
+## **📝 Last Updated :** **`2025-03-05`**
 
 
 ## 📂 List of Common Repositories
@@ -20,7 +20,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **Java-ByMadhuraAnturkar-Core_Java** | Core Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Core_Java.git) |
 | **Java-ByMadhuraAnturkar-Advance_Java** | Advance Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repoa](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Advance_Java.git) |
 | **spring-boot-microservices** | All Spring Boot Microservices | 🛑 Archived | 2025-02-15 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-microservices.git) |
-| **sql-query** | All SQL Queries | ⚠️ In Progress | 2025-03-04 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/sql-query.git) 
+| **sql-query** | All SQL Queries | ⚠️ In Progress | 2025-03-05 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/sql-query.git) 
 <!-- | **** |  |  |  | []() | -->
 
 ## 📂 List of Repositories : Angular
