@@ -26,7 +26,7 @@ This repository helps me keep track of all my GitHub projects, their description
 ## 📂 List of Repositories : Angular
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
-| **** |  | ⏳ Planned |  | 🔒 Private | []() |
+| **angular-tracker-manager-ui** | Angular app to manage the Tracker | ⚠️ In Progress | 2025-03-07 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/angular-tracker-manager-ui.git) |
 
 ## 📂 List of Repositories : React
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
