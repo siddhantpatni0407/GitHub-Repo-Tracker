@@ -57,6 +57,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-jpa-multiple-database-service** | JPA Multiple Database Integration Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jpa-multiple-database-service.git) |
 | **spring-boot-event-service** | Event Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-event-service.git) |
 | **spring-boot-hotel-booking-management-service** | Hotel Booking Management Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-hotel-booking-management-service.git) |
+| **spring-boot-tracker-manager-service** | Tracker Manager Service | ⚠️ In Progress | 2025-03-07 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-tracker-manager-service.git) |
 <!--| **** |  | ⏳ Planned | 2025-02-16 | 🔒 Private | []() |-->
 
 ## 🏷 Project Status Legends
