@@ -1,7 +1,7 @@
 # 🚀 GitHub-Repo-Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
-## **📝 Last Updated :** **`2025-03-08`**
+## **📝 Last Updated :** **`2025-03-10`**
 
 
 ## 📂 List of Common Repositories
@@ -20,13 +20,13 @@ This repository helps me keep track of all my GitHub projects, their description
 | **Java-ByMadhuraAnturkar-Core_Java** | Core Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Core_Java.git) |
 | **Java-ByMadhuraAnturkar-Advance_Java** | Advance Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repoa](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Advance_Java.git) |
 | **spring-boot-microservices** | All Spring Boot Microservices | 🛑 Archived | 2025-02-15 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-microservices.git) |
-| **database-query** | All Database Queries | ⚠️ In Progress | 2025-03-05 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/database-query) 
+| **database-query** | All Database Queries | ⚠️ In Progress | 2025-03-10 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/database-query) 
 <!-- | **** |  |  |  | []() | -->
 
 ## 📂 List of Repositories : Angular
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
-| **angular-tracker-manager-ui** | Angular app to manage the Tracker | ⚠️ In Progress | 2025-03-08 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/angular-tracker-manager-ui.git) |
+| **angular-tracker-manager-ui** | Angular app to manage the Tracker | ⚠️ In Progress | 2025-03-10 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/angular-tracker-manager-ui.git) |
 
 ## 📂 List of Repositories : React
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
@@ -57,7 +57,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-jpa-multiple-database-service** | JPA Multiple Database Integration Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jpa-multiple-database-service.git) |
 | **spring-boot-event-service** | Event Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-event-service.git) |
 | **spring-boot-hotel-booking-management-service** | Hotel Booking Management Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-hotel-booking-management-service.git) |
-| **spring-boot-tracker-manager-service** | Tracker Manager Service | ⚠️ In Progress | 2025-03-08 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-tracker-manager-service.git) |
+| **spring-boot-tracker-manager-service** | Tracker Manager Service | ⚠️ In Progress | 2025-03-10 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-tracker-manager-service.git) |
 <!--| **** |  | ⏳ Planned | 2025-02-16 | 🔒 Private | []() |-->
 
 ## 🏷 Project Status Legends
