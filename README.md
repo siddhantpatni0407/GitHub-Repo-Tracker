@@ -28,7 +28,7 @@ This repository helps me keep track of all my GitHub projects, their description
 |---------------|-------------|--------|--------------|------|------|
 | **database-query** | All Database Queries | ⚠️ In Progress | 2025-03-10 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/database-query) |
 
-## 📂 List of Common Repositories : C
+## 📂 List of Common Repositories : [C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
 | **C_Programs** | C Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/C_Programs.git) |
