@@ -1,24 +1,14 @@
 # 🚀 GitHub-Repo-Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
-## **📝 Last Updated :** **`2025-03-25`**
-
+## **📝 Last Updated :** **`2025-04-01`**
 
 ## 📂 List of Common Repositories
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
 | **siddhantpatni0407** | Profile ReadMe | ✅ Active | 2025-03-04 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/siddhantpatni0407.git) |
 | **Notes** | Technical Notes | ✅ Active | 2025-01-18 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Notes.git) |
-| **Java-Advance_Java** | Advance Java Programs | ⚠️ In Progress | 2021-04-27 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Advance_Java.git) |
-| **C_Programs** | C Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/C_Programs.git) |
-| **CPP_Programs** | C++ Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/CPP_Programs.git) |
-| **DataStructure_C** | Data Structure using C | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_C.git) |
-| **DataStructure_Cpp** | Data Structure using C++ | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_Cpp.git) |
-| **DataStructure_Java** | Data Structure using Java | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_Java.git) |
-| **Java-ByMadhuraAnturkar-Core_Java** | Core Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Core_Java.git) |
-| **Java-ByMadhuraAnturkar-Advance_Java** | Advance Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repoa](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Advance_Java.git) |
 | **spring-boot-microservices** | All Spring Boot Microservices | 🛑 Archived | 2025-02-15 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-microservices.git) |
-| **database-query** | All Database Queries | ⚠️ In Progress | 2025-03-10 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/database-query) |
 <!-- | **** |  |  |  | []() | -->
 
 ## 📂 List of Repositories : Angular
@@ -33,15 +23,36 @@ This repository helps me keep track of all my GitHub projects, their description
 | **react-kafka-manager-ui** | Kafka Manager UI App | 🚀 Completed | 2025-02-25 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/react-kafka-manager-ui.git) |
 | **react-basics** | Kafka Manager UI App | ⚠️ In Progress | 2025-02-22 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/react-basics.git) |
 
+## 📂 List of Common Repositories : Database
+| Repository Name | Description | Status | Last Updated | Visibility | Link |
+|---------------|-------------|--------|--------------|------|------|
+| **database-query** | All Database Queries | ⚠️ In Progress | 2025-03-10 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/database-query) |
+
+## 📂 List of Common Repositories : C
+| Repository Name | Description | Status | Last Updated | Visibility | Link |
+|---------------|-------------|--------|--------------|------|------|
+| **C_Programs** | C Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/C_Programs.git) |
+| **DataStructure_C** | Data Structure using C | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_C.git) |
+
+## 📂 List of Common Repositories : C++
+| Repository Name | Description | Status | Last Updated | Visibility | Link |
+|---------------|-------------|--------|--------------|------|------|
+| **CPP_Programs** | C++ Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/CPP_Programs.git) |
+| **DataStructure_Cpp** | Data Structure using C++ | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_Cpp.git) |
+
 ## 📂 List of Common Repositories : Python
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
 | **Python** | Core Python Programs | ⚠️ In Progress | 2024-03-13 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Python.git) |
 
-## 📂 List of Repositories : Core Java
+## 📂 List of Repositories : Java
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
 | **Java-Core_Java** | Core Java Programs | ⚠️ In Progress | 2025-01-26 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Core_Java.git) |
+| **Java-ByMadhuraAnturkar-Core_Java** | Core Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Core_Java.git) |
+| **Java-ByMadhuraAnturkar-Advance_Java** | Advance Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Advance_Java.git) |
+| **Java-Advance_Java** | Advance Java Programs | ⚠️ In Progress | 2021-04-27 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Advance_Java.git) |
+| **DataStructure_Java** | Data Structure using Java | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_Java.git) |
 
 ## 📂 List of Repositories : Java - Spring Boot Microservices
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
