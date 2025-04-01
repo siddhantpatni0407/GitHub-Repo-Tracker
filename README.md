@@ -9,9 +9,7 @@ This repository helps me keep track of all my GitHub projects, their description
 |---------------|-------------|--------|--------------|------|------|
 | **siddhantpatni0407** | Profile ReadMe | ✅ Active | 2025-03-04 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/siddhantpatni0407.git) |
 | **Notes** | Technical Notes | ✅ Active | 2025-01-18 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Notes.git) |
-| **Java-Core_Java** | Core Java Programs | ⚠️ In Progress | 2025-01-26 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Core_Java.git) |
 | **Java-Advance_Java** | Advance Java Programs | ⚠️ In Progress | 2021-04-27 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Advance_Java.git) |
-| **Python** | Core Python Programs | ⚠️ In Progress | 2024-03-13 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Python.git) |
 | **C_Programs** | C Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/C_Programs.git) |
 | **CPP_Programs** | C++ Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/CPP_Programs.git) |
 | **DataStructure_C** | Data Structure using C | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_C.git) |
@@ -34,6 +32,16 @@ This repository helps me keep track of all my GitHub projects, their description
 | **react-file-storage-ui** | File Storage UI App | 🚀 Completed | 2025-02-20 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/react-file-storage-ui.git) |
 | **react-kafka-manager-ui** | Kafka Manager UI App | 🚀 Completed | 2025-02-25 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/react-kafka-manager-ui.git) |
 | **react-basics** | Kafka Manager UI App | ⚠️ In Progress | 2025-02-22 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/react-basics.git) |
+
+## 📂 List of Common Repositories : Python
+| Repository Name | Description | Status | Last Updated | Visibility | Link |
+|---------------|-------------|--------|--------------|------|------|
+| **Python** | Core Python Programs | ⚠️ In Progress | 2024-03-13 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Python.git) |
+
+## 📂 List of Repositories : Core Java
+| Repository Name | Description | Status | Last Updated | Visibility | Link |
+|---------------|-------------|--------|--------------|------|------|
+| **Java-Core_Java** | Core Java Programs | ⚠️ In Progress | 2025-01-26 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Core_Java.git) |
 
 ## 📂 List of Repositories : Java - Spring Boot Microservices
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
