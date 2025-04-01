@@ -34,7 +34,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **C_Programs** | C Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/C_Programs.git) |
 | **DataStructure_C** | Data Structure using C | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/DataStructure_C.git) |
 
-## 📂 List of Common Repositories : C++
+## 📂 List of Common Repositories : ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
 | **CPP_Programs** | C++ Programs | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/CPP_Programs.git) |
