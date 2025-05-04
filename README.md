@@ -80,6 +80,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-hotel-booking-management-service** | Hotel Booking Management Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-hotel-booking-management-service.git) |
 | **spring-boot-tracker-manager-service** | Tracker Manager Service | ⚠️ In Progress | 2025-04-06 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-tracker-manager-service.git) |
 | **spring-boot-google-gemini-integration-service** | Google Gemini Integration Service | 🚀 Completed | 2025-03-11 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-google-gemini-integration-service) |
+| **sb-resilience4j-circuit-breaker-service** |Resilience4j Circuit Breaker | ⏳ Planned | 2025-05-04 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/sb-resilience4j-circuit-breaker-service) |
 <!--| **** |  | ⏳ Planned | 2025-02-16 | 🔒 Private | []() |-->
 
 ## 🏷 Project Status Legends
