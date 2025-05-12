@@ -1,7 +1,7 @@
 # 🚀 GitHub-Repo-Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
-## **📝 Last Updated :** **`2025-05-11`**
+## **📝 Last Updated :** **`2025-05-12`**
 
 ## 📂 List of Common Repositories
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
@@ -50,7 +50,7 @@ This repository helps me keep track of all my GitHub projects, their description
 ## 📂 List of Repositories : Java
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
-| **Java-Core_Java** | Core Java Programs | ⚠️ In Progress | 2025-05-05 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Core_Java.git) |
+| **Java-Core_Java** | Core Java Programs | ⚠️ In Progress | 2025-05-12 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Core_Java.git) |
 | **Java-ByMadhuraAnturkar-Core_Java** | Core Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Core_Java.git) |
 | **Java-ByMadhuraAnturkar-Advance_Java** | Advance Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Advance_Java.git) |
 | **Java-Advance_Java** | Advance Java Programs | ⚠️ In Progress | 2021-04-27 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Advance_Java.git) |
@@ -68,7 +68,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-batch-partitioning-service** | Batch Partitioning Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-partitioning-service.git) |
 | **spring-boot-batch-fault-tolerance-service** | Fault Tolerance Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-fault-tolerance-service.git) |
 | **spring-boot-batch-file-upload-service** | Batch File Upload Service  | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-batch-file-upload-service.git) |
-| **spring-boot-employee-mgmt-service** | Employee Management Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-employee-mgmt-service.git) |
+| **spring-boot-employee-mgmt-service** | Employee Management Service | 🚀 Completed | 2025-02-16 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-employee-mgmt-service.git) |
 | **spring-boot-file-storage-service** | File Storage Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-file-storage-service.git) |
 | **spring-boot-jpa-pagination-service** | JPA Pagination Service | 🚀 Completed | 2025-02-16 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-jpa-pagination-service.git) |
 | **spring-boot-kafka-service** | Kafka Service | 🚀 Completed | 2025-02-23 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-kafka-service.git) |
