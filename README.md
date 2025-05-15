@@ -8,7 +8,7 @@ This repository helps me keep track of all my GitHub projects, their description
 |---------------|-------------|--------|--------------|------|------|
 | **siddhantpatni0407** | Profile ReadMe | ✅ Active | 2025-03-04 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/siddhantpatni0407.git) |
 | **Notes** | Technical Notes | ✅ Active | 2025-01-18 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Notes.git) |
-| **tech-concepts-handbook** | Technical Concepts and Interview Questions | ✅ Active | 2025-05-11 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/tech-concepts-handbook.git) |
+| **tech-concepts-handbook** | Technical Concepts and Interview Questions | ✅ Active | 2025-05-15 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/tech-concepts-handbook.git) |
 | **tech-concepts-references-handbook** | Technical External References | ✅ Active | 2025-04-28 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/tech-concepts-references-handbook.git) |
 | **spring-boot-microservices** | All Spring Boot Microservices | 🛑 Archived | 2025-02-15 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-microservices.git) |
 <!-- | **** |  |  |  | []() | -->
