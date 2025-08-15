@@ -45,7 +45,7 @@ This repository helps me keep track of all my GitHub projects, their description
 ## 📂 List of Common Repositories : Python
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
-| **Python** | Core Python Programs | ⚠️ In Progress | 2025-08-09 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Python.git) |
+| **Python** | Core Python Programs | ⚠️ In Progress | 2025-08-16 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Python.git) |
 
 ## 📂 List of Repositories : Java
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
