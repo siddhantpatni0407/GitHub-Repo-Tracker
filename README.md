@@ -50,7 +50,7 @@ This repository helps me keep track of all my GitHub projects, their description
 ## 📂 List of Repositories : Java
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
 |---------------|-------------|--------|--------------|------|------|
-| **Java-Core_Java** | Core Java Programs | ⚠️ In Progress | 2025-05-12 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Core_Java.git) |
+| **Java-Core_Java** | Core Java Programs | ⚠️ In Progress | 2025-08-20 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Core_Java.git) |
 | **Java-ByMadhuraAnturkar-Core_Java** | Core Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Core_Java.git) |
 | **Java-ByMadhuraAnturkar-Advance_Java** | Advance Java By Madhura Anturkar | ⏳ Planned | 2021-04-27 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/Java-ByMadhuraAnturkar-Advance_Java.git) |
 | **Java-Advance_Java** | Advance Java Programs | ⚠️ In Progress | 2021-04-27 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/Java-Advance_Java.git) |
