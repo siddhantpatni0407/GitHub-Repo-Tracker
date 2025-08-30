@@ -1,7 +1,7 @@
 # 🚀 GitHub-Repo-Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
-## **📝 Last Updated :** **`2025-08-28`**
+## **📝 Last Updated :** **`2025-08-31`**
 
 ## 📂 List of Common Repositories
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
@@ -84,6 +84,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-google-gemini-integration-service** | Google Gemini Integration Service | 🚀 Completed | 2025-03-11 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/spring-boot-google-gemini-integration-service) |
 | **sb-resilience4j-circuit-breaker-service** |Resilience4j Circuit Breaker | 🚀 Completed | 2025-05-04 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/sb-resilience4j-circuit-breaker-service) |
 | **spring-boot-redis-db-integration-service** |Redis Database Integration | 🚀 Completed | 2025-08-27 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-redis-db-integration-service) |
+| **spring-boot-mongo-db-service** |Spring Boot Mongo Database Integration | 🚀 Completed | 2025-08-31 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-mongo-db-service) |
 <!--| **** |  | ⏳ Planned | 2025-02-16 | 🔒 Private | []() |-->
 
 ## 🏷 Project Status Legends
