@@ -87,6 +87,19 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-mongo-db-service** |Spring Boot Mongo Database Integration | 🚀 Completed | 2025-08-31 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-mongo-db-service) |
 <!--| **** |  | ⏳ Planned | 2025-02-16 | 🔒 Private | []() |-->
 
+
+---
+
+### **List of Repositories : My Projects**
+
+| Repository Name        | Description                                    | Status         | Last Updated | Visibility | Link                                                                  |
+| ---------------------- | ---------------------------------------------- | -------------- | ------------ | ---------- | --------------------------------------------------------------------- |
+| **treat-seat-ui**      | Frontend React application for The Treat Seat  | ⚠️ In Progress | 2025-08-31   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/treat-seat-ui.git)      |
+| **treat-seat-service** | Backend Spring Boot service for The Treat Seat | ⚠️ In Progress | 2025-08-31   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/treat-seat-service.git) |
+
+---
+
+
 ## 🏷 Project Status Legends
 | Status | Meaning |
 |--------|---------|
