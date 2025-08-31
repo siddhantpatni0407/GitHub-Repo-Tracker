@@ -94,8 +94,8 @@ This repository helps me keep track of all my GitHub projects, their description
 
 | Repository Name        | Description                                    | Status         | Last Updated | Visibility | Link                                                                  |
 | ---------------------- | ---------------------------------------------- | -------------- | ------------ | ---------- | --------------------------------------------------------------------- |
-| **treat-seat-ui**      | Frontend React application for The Treat Seat  | ⚠️ In Progress | 2025-08-31   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/treat-seat-ui.git)      |
-| **treat-seat-service** | Backend Spring Boot service for The Treat Seat | ⚠️ In Progress | 2025-08-31   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/treat-seat-service.git) |
+| **the-treat-seat-ui**      | Frontend React application for The Treat Seat  | ⚠️ In Progress | 2025-08-31   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/the-treat-seat-ui.git)      |
+| **the-treat-seat-service** | Backend Spring Boot service for The Treat Seat | ⚠️ In Progress | 2025-08-31   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/the-treat-seat-service.git) |
 
 ---
 
