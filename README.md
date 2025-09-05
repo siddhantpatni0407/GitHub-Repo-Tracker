@@ -1,7 +1,7 @@
 # 🚀 GitHub-Repo-Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
-## **📝 Last Updated :** **`2025-09-05`**
+## **📝 Last Updated :** **`2025-09-06**
 
 ## 📂 List of Common Repositories
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
@@ -96,7 +96,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | ---------------------- | ---------------------------------------------- | -------------- | ------------ | ---------- | --------------------------------------------------------------------- |
 | **the-treat-seat-ui**      | Frontend React application for The Treat Seat  | ⚠️ In Progress | 2025-08-31   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/the-treat-seat-ui.git)      |
 | **the-treat-seat-service** | Backend Spring Boot service for The Treat Seat | ⚠️ In Progress | 2025-08-31   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/the-treat-seat-service.git) |
-| **workplace-tracker-ui**      | Frontend React application for Workplace Tracker  | ⚠️ In Progress | 2025-09-05   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/workplace-tracker-ui.git)      |
+| **workplace-tracker-ui**      | Frontend React application for Workplace Tracker  | ⚠️ In Progress | 2025-09-06   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/workplace-tracker-ui.git)      |
 | **workplace-tracker-service** | Backend Spring Boot service for Workplace Tracker | ⚠️ In Progress | 2025-09-05   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/workplace-tracker-service.git) |
 
 ---
