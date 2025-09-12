@@ -1,4 +1,4 @@
-name: Update README on external repo change
+name: Update README Last Updated
 
 permissions:
   contents: write
@@ -10,28 +10,28 @@ on:
     branches: [ main, master ]
 
 jobs:
-  update-readme:
+  update-last-updated:
     runs-on: ubuntu-latest
     steps:
-      - name: Avoid loop if triggered by GitHub Actions
+      - name: Exit if action triggered by github-actions to avoid loop
         if: ${{ github.actor == 'github-actions' }}
         run: |
           echo "Triggered by github-actions. Exiting."
           exit 0
 
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Update README Snapshot
+      - name: Update Last Updated date in README
         env:
-          TZ: 'Asia/Kolkata'
+          TZ: 'Asia/Kolkata'   # change or remove if you want UTC
           GITHUB_EVENT_PATH: ${{ github.event_path }}
         run: |
           set -euo pipefail
 
-          # locate README (customize if needed)
+          # README path (adjust if your README lives elsewhere)
           README="README.md"
           if [ ! -f "$README" ]; then README="Setup/ReadMe-Softwares-List.md"; fi
           if [ ! -f "$README" ]; then
@@ -39,66 +39,43 @@ jobs:
             exit 0
           fi
 
-          # Gather timestamp + defaults
-          NOW="$(date '+%Y-%m-%d %H:%M %z')"
-          SENDER_REPO=""
-          SENDER_BRANCH=""
-          SENDER_COMMIT=""
-          SENDER_ACTOR=""
+          # compute new date (change format if you prefer date-only)
+          NEW_DATE="$(date '+%Y-%m-%d %H:%M %z')"
+          echo "Updating Last Updated → $NEW_DATE in $README"
 
-          # If triggered by repository_dispatch, parse the client_payload
-          if [ -f "$GITHUB_EVENT_PATH" ]; then
-            SENDER_REPO=$(jq -r '.client_payload.source_repo // empty' "$GITHUB_EVENT_PATH" 2>/dev/null || echo "")
-            SENDER_BRANCH=$(jq -r '.client_payload.source_branch // empty' "$GITHUB_EVENT_PATH" 2>/dev/null || echo "")
-            SENDER_COMMIT=$(jq -r '.client_payload.source_commit // empty' "$GITHUB_EVENT_PATH" 2>/dev/null || echo "")
-            SENDER_ACTOR=$(jq -r '.client_payload.actor // empty' "$GITHUB_EVENT_PATH" 2>/dev/null || echo "")
-          fi
-
-          # If payload not provided (or run by push on tracker repo), fall back to tracker info
-          if [ -z "$SENDER_REPO" ]; then
-            SENDER_REPO="${GITHUB_REPOSITORY}"
-            SENDER_BRANCH="${GITHUB_REF_NAME:-$(echo ${GITHUB_REF} | sed 's#refs/heads/##')}"
-            SENDER_COMMIT="${GITHUB_SHA:0:7}"
-            SENDER_ACTOR="${GITHUB_ACTOR}"
-          fi
-
-          # Build markdown block and write to temp file (use single-quoted heredoc for literal content)
-          cat > /tmp/newblock.md <<'SNAP'
-<!-- SNAPSHOT-START -->
-## 📋 Repository Activity Snapshot
-
-| Field | Details |
-| ----- | ------- |
-| 🗓️ Date/Time | `'"$NOW"'` |
-| 📦 Repository | `'"$SENDER_REPO"'` |
-| 🔀 Branch | `'"$SENDER_BRANCH"'` |
-| 👤 Actor | `'"$SENDER_ACTOR"'` |
-| 🔗 Commit | `'"$SENDER_COMMIT"'` |
-<!-- SNAPSHOT-END -->
-SNAP
-
-          # read file content into variable (preserves newlines)
-          NEW_BLOCK="$(cat /tmp/newblock.md)"
-
-          # If markers exist, replace content between them; otherwise insert after H1
-          if grep -q '<!-- SNAPSHOT-START -->' "$README"; then
-            # Replace between markers (inclusive)
-            awk -v blk="$NEW_BLOCK" '
-              BEGIN {in_block=0}
-              /<!-- SNAPSHOT-START -->/ { print blk; in_block=1; next }
-              /<!-- SNAPSHOT-END -->/  { in_block=0; next }
-              { if (!in_block) print }
-            ' "$README" > /tmp/README.updated && mv /tmp/README.updated "$README"
+          # If the file already contains 'Last Updated' replace it; otherwise insert after first H1
+          if grep -q -E 'Last Updated' "$README"; then
+            # Replace lines that start with "## ... Last Updated" or any "Last Updated:" occurrence
+            awk -v d="$NEW_DATE" '
+              BEGIN { replaced=0 }
+              /^## .*Last Updated/ {
+                print "## 📅 Last Updated : `" d "`"
+                replaced=1
+                next
+              }
+              /Last Updated:/ && replaced==0 {
+                sub(/Last Updated:.*/, "Last Updated: `" d "`")
+                print
+                replaced=1
+                next
+              }
+              { print }
+              END {
+                # nothing (we only needed to replace)
+              }
+            ' "$README" > /tmp/README.tmp && mv /tmp/README.tmp "$README"
           else
-            # Insert after first H1 (line that starts with "# "), else prepend
+            # Insert after first H1; if no H1, prepend
             if grep -q '^# ' "$README"; then
-              awk -v blk="$NEW_BLOCK" 'NR==1{print; print ""; print blk; next}1' "$README" > /tmp/README.updated && mv /tmp/README.updated "$README"
+              awk -v d="$NEW_DATE" 'NR==1{print; print ""; print "## 📅 Last Updated : `" d "`"; next}1' "$README" > /tmp/README.tmp && mv /tmp/README.tmp "$README"
             else
-              printf "%s\n\n%s\n" "$NEW_BLOCK" "$(cat "$README")" > /tmp/README.updated && mv /tmp/README.updated "$README"
+              printf "## 📅 Last Updated : `%s`\n\n" "$NEW_DATE" > /tmp/README.tmp
+              cat "$README" >> /tmp/README.tmp
+              mv /tmp/README.tmp "$README"
             fi
           fi
 
-          # show diff for debugging
+          # Show diff for logs
           git --no-pager diff -- "$README" || true
 
       - name: Commit & push if changed
@@ -112,7 +89,7 @@ SNAP
 
           if git status --porcelain | grep -q "$(basename "$README")"; then
             git add -- "$README"
-            git commit -m "chore: update Repository Activity Snapshot"
+            git commit -m "chore: update Last Updated timestamp"
             git push origin HEAD:${{ github.ref_name }}
           else
             echo "No README changes to commit."
