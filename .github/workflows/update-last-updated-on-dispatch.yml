@@ -1,0 +1,116 @@
+name: Update README on external repo change
+
+permissions:
+  contents: write
+
+on:
+  repository_dispatch:
+    types: [repo_changed]
+  push:
+    branches: [ main, master ]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Avoid loop if triggered by GitHub Actions
+        if: ${{ github.actor == 'github-actions' }}
+        run: |
+          echo "Triggered by github-actions. Exiting."
+          exit 0
+
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update README Snapshot
+        env:
+          TZ: 'Asia/Kolkata'
+          GITHUB_EVENT_PATH: ${{ github.event_path }}
+        run: |
+          set -euo pipefail
+
+          # locate README (customize if needed)
+          README="README.md"
+          if [ ! -f "$README" ]; then README="Setup/ReadMe-Softwares-List.md"; fi
+          if [ ! -f "$README" ]; then
+            echo "README not found at expected paths. Exiting."
+            exit 0
+          fi
+
+          # Gather timestamp + defaults
+          NOW="$(date '+%Y-%m-%d %H:%M %z')"
+          SENDER_REPO=""
+          SENDER_BRANCH=""
+          SENDER_COMMIT=""
+          SENDER_ACTOR=""
+
+          # If triggered by repository_dispatch, parse the client_payload
+          if [ -f "$GITHUB_EVENT_PATH" ]; then
+            SENDER_REPO=$(jq -r '.client_payload.source_repo // empty' "$GITHUB_EVENT_PATH" || echo "")
+            SENDER_BRANCH=$(jq -r '.client_payload.source_branch // empty' "$GITHUB_EVENT_PATH" || echo "")
+            SENDER_COMMIT=$(jq -r '.client_payload.source_commit // empty' "$GITHUB_EVENT_PATH" || echo "")
+            SENDER_ACTOR=$(jq -r '.client_payload.actor // empty' "$GITHUB_EVENT_PATH" || echo "")
+          fi
+
+          # If payload not provided (or run by push on tracker repo), fall back to tracker info
+          if [ -z "$SENDER_REPO" ]; then
+            SENDER_REPO="${GITHUB_REPOSITORY}"
+            SENDER_BRANCH="${GITHUB_REF_NAME:-$(echo ${GITHUB_REF} | sed 's#refs/heads/##')}"
+            SENDER_COMMIT="${GITHUB_SHA:0:7}"
+            SENDER_ACTOR="${GITHUB_ACTOR}"
+          fi
+
+          # Build markdown block with explicit start/end markers for safe replace
+          read -r -d '' NEW_BLOCK <<EOF || true
+<!-- SNAPSHOT-START -->
+## 📋 Repository Activity Snapshot
+
+| Field | Details |
+| ----- | ------- |
+| 🗓️ Date/Time | \`$NOW\` |
+| 📦 Repository | \`$SENDER_REPO\` |
+| 🔀 Branch | \`$SENDER_BRANCH\` |
+| 👤 Actor | \`$SENDER_ACTOR\` |
+| 🔗 Commit | \`$SENDER_COMMIT\` |
+<!-- SNAPSHOT-END -->
+EOF
+
+          # If markers exist, replace content between them; otherwise insert after H1
+          if grep -q '<!-- SNAPSHOT-START -->' "$README"; then
+            # Use awk to replace everything between markers (inclusive) with NEW_BLOCK
+            awk -v blk="$NEW_BLOCK" '
+              BEGIN { in_block=0 }
+              /<!-- SNAPSHOT-START -->/ { print blk; in_block=1; next }
+              /<!-- SNAPSHOT-END -->/ { in_block=0; next }
+              { if (!in_block) print }
+            ' "$README" > /tmp/README.updated && mv /tmp/README.updated "$README"
+          else
+            # Insert after first H1 (line that starts with "# "), else prepend
+            if grep -q '^# ' "$README"; then
+              awk -v blk="$NEW_BLOCK" 'NR==1{print; print ""; print blk; next}1' "$README" > /tmp/README.updated && mv /tmp/README.updated "$README"
+            else
+              printf "%s\n\n%s\n" "$NEW_BLOCK" "$(cat "$README")" > /tmp/README.updated && mv /tmp/README.updated "$README"
+            fi
+          fi
+
+          # show diff for debugging
+          git --no-pager diff -- "$README" || true
+
+      - name: Commit & push if changed
+        env:
+          GIT_EMAIL: github-actions[bot]@users.noreply.github.com
+          GIT_NAME: github-actions[bot]
+        run: |
+          set -euo pipefail
+          git config user.email "$GIT_EMAIL"
+          git config user.name "$GIT_NAME"
+
+          if git status --porcelain | grep -q "$(basename "$README")"; then
+            git add -- "$README"
+            git commit -m "chore: update Repository Activity Snapshot"
+            git push origin HEAD:${{ github.ref_name }}
+          else
+            echo "No README changes to commit."
+          fi
