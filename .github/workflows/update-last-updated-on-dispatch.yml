@@ -1,19 +1,17 @@
-name: Update README Last Updated
+name: Update README Last Updated (on external repo change)
 
 permissions:
   contents: write
 
 on:
   repository_dispatch:
-    types: [repo_changed]
-  push:
-    branches: [ main, master ]
+    types: [repo_changed]   # Trigger only when another repo notifies
 
 jobs:
-  update-last-updated:
+  update-readme:
     runs-on: ubuntu-latest
     steps:
-      - name: Exit if action triggered by github-actions to avoid loop
+      - name: Exit if triggered by github-actions to avoid loop
         if: ${{ github.actor == 'github-actions' }}
         run: |
           echo "Triggered by github-actions. Exiting."
@@ -26,56 +24,26 @@ jobs:
 
       - name: Update Last Updated date in README
         env:
-          TZ: 'Asia/Kolkata'   # change or remove if you want UTC
-          GITHUB_EVENT_PATH: ${{ github.event_path }}
+          TZ: 'Asia/Kolkata'
         run: |
           set -euo pipefail
 
-          # README path (adjust if your README lives elsewhere)
           README="README.md"
-          if [ ! -f "$README" ]; then README="Setup/ReadMe-Softwares-List.md"; fi
           if [ ! -f "$README" ]; then
-            echo "README not found at expected paths. Exiting."
+            echo "README not found at expected path. Exiting."
             exit 0
           fi
 
-          # compute new date (change format if you prefer date-only)
           NEW_DATE="$(date '+%Y-%m-%d %H:%M %z')"
           echo "Updating Last Updated → $NEW_DATE in $README"
 
-          # If the file already contains 'Last Updated' replace it; otherwise insert after first H1
           if grep -q -E 'Last Updated' "$README"; then
-            # Replace lines that start with "## ... Last Updated" or any "Last Updated:" occurrence
-            awk -v d="$NEW_DATE" '
-              BEGIN { replaced=0 }
-              /^## .*Last Updated/ {
-                print "## 📅 Last Updated : `" d "`"
-                replaced=1
-                next
-              }
-              /Last Updated:/ && replaced==0 {
-                sub(/Last Updated:.*/, "Last Updated: `" d "`")
-                print
-                replaced=1
-                next
-              }
-              { print }
-              END {
-                # nothing (we only needed to replace)
-              }
-            ' "$README" > /tmp/README.tmp && mv /tmp/README.tmp "$README"
+            sed -E -i "s#(Last Updated).*#\\1 : \`$NEW_DATE\`#g" "$README"
           else
-            # Insert after first H1; if no H1, prepend
-            if grep -q '^# ' "$README"; then
-              awk -v d="$NEW_DATE" 'NR==1{print; print ""; print "## 📅 Last Updated : `" d "`"; next}1' "$README" > /tmp/README.tmp && mv /tmp/README.tmp "$README"
-            else
-              printf "## 📅 Last Updated : `%s`\n\n" "$NEW_DATE" > /tmp/README.tmp
-              cat "$README" >> /tmp/README.tmp
-              mv /tmp/README.tmp "$README"
-            fi
+            awk -v d="$NEW_DATE" 'NR==1{print; print "## 📅 Last Updated : `" d "`"; print ""}1' "$README" > /tmp/README.tmp
+            mv /tmp/README.tmp "$README"
           fi
 
-          # Show diff for logs
           git --no-pager diff -- "$README" || true
 
       - name: Commit & push if changed
@@ -87,9 +55,9 @@ jobs:
           git config user.email "$GIT_EMAIL"
           git config user.name "$GIT_NAME"
 
-          if git status --porcelain | grep -q "$(basename "$README")"; then
-            git add -- "$README"
-            git commit -m "chore: update Last Updated timestamp"
+          if git status --porcelain | grep -q README.md; then
+            git add README.md
+            git commit -m "chore: update Last Updated timestamp (external repo change)"
             git push origin HEAD:${{ github.ref_name }}
           else
             echo "No README changes to commit."
