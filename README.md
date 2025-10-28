@@ -1,7 +1,7 @@
 # 🚀 GitHub-Repo-Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
-## **📝 Last Updated :** **2025-10-13**
+## **📝 Last Updated :** **2025-10-29**
 
 ## 📂 List of Common Repositories
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
@@ -26,6 +26,7 @@ This repository helps me keep track of all my GitHub projects, their description
 | **react-kafka-manager-ui** | Kafka Manager UI App | 🚀 Completed | 2025-02-25 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/react-kafka-manager-ui.git) |
 | **react-basics** | Kafka Manager UI App | ⚠️ In Progress | 2025-02-22 | 🔒 Private | [View Repo](https://github.com/siddhantpatni0407/react-basics.git) |
 | **react-office-work-tracker-ui** | Office Work Tracker UI App | ⚠️ In Progress | 2025-08-28 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/react-office-work-tracker-ui.git) |
+| **dev-toolbox-ui** | Dev Toolbox UI App | ⚠️ In Progress | 2025-10-29 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/dev-toolbox-ui.git) |
 
 ## 📂 List of Common Repositories : Database
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
