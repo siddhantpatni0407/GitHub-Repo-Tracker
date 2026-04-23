@@ -1,7 +1,7 @@
 # 🚀 GitHub-Repo-Tracker
 This repository helps me keep track of all my GitHub projects, their descriptions, and statuses.
 
-## **📝 Last Updated :** **2025-10-29**
+## **📝 Last Updated :** **2026-04-23**
 
 ## 📂 List of Common Repositories
 | Repository Name | Description | Status | Last Updated | Visibility | Link |
@@ -88,6 +88,14 @@ This repository helps me keep track of all my GitHub projects, their description
 | **spring-boot-mongo-db-service** |Spring Boot Mongo Database Integration | 🚀 Completed | 2025-08-31 | 🔓 Public | [View Repo](https://github.com/siddhantpatni0407/spring-boot-mongo-db-service) |
 <!--| **** |  | ⏳ Planned | 2025-02-16 | 🔒 Private | []() |-->
 
+
+---
+
+### **List of Repositories : Desktop Applications**
+
+| Repository Name        | Description                                    | Status         | Last Updated | Visibility | Link                                                                  |
+| ---------------------- | ---------------------------------------------- | -------------- | ------------ | ---------- | --------------------------------------------------------------------- |
+| **worklytics**      | Frontend React application and Backend Rust + Tauri  | 🚀 Completed | 2026-04-23   | 🔓 Public  | [View Repo](https://github.com/siddhantpatni0407/worklytics.git)      |
 
 ---
 
